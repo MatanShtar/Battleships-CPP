@@ -17,9 +17,8 @@ The game features a rich ASCII interface with real-time fleet health tracking, i
 ## ✨ Key Features
 
 * **🧠 Smart AI Opponent:** The AI randomizes attacks but remembers previous moves to avoid hitting the same tile twice.
-* **🛡️ Robust Input Validation:** Prevents crashes by handling non-integer inputs, out-of-bounds coordinates, and overlapping ship placements.
+* **🛡️ Robust Input Validation:** Prevents crashes by handling out-of-bounds coordinates, and overlapping ship placements.
 * **📊 Dynamic Fleet Status:** A real-time "Health Bar" display for every ship, showing remaining hit points and sunk status.
-* **💻 Cross-Platform Compatible:** Uses preprocessor directives to handle console clearing on both Windows (`cls`) and Linux/Mac (`clear`).
 * **🎨 Clean ASCII UI:** Features a high-visibility grid with distinct symbols for Hits `[X]`, Misses `[M]`, Ships `[S]`, and Water `[~]`.
 
 ---
