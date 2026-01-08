@@ -45,7 +45,6 @@ The game features a rich ASCII interface with real-time fleet health tracking, i
 You can compile this project using any standard C++ compiler (like `g++`).
 
 ### 1. Clone the Repository
-bash
 git clone [https://github.com/MatanShtar/Battleships-CPP.git](https://github.com/MatanShtar/Battleships-CPP.git)
 cd Battleships-CPP
 
@@ -55,35 +54,35 @@ Run the following command in your terminal to link all source files:
        g++ main.cpp Game.cpp Player.cpp HumanPlayer.cpp AiPlayer.cpp Grid.cpp Ship.cpp ShipClasses.cpp -o battleship
    
 4. Run
-Windows:
+#Windows:
 
        battleship.exe
-Mac/Linux:
+#Mac/Linux:
 
     ./battleship
-🏗️ Technical Architecture
+##🏗️ **Technical Architecture**
 This project uses a modular class hierarchy to separate logic, state, and user interaction.
 
 Class Diagram Overview
-  • Game: The central controller. Manages the game loop, turns, and win conditions.
+* **Game: The central controller. Manages the game loop, turns, and win conditions.
 
-  • Grid: Represents the 10x10 board. Handles logic for collisions, boundaries, and cell states (WATER, SHIP, HIT, MISS).
+* **Grid: Represents the 10x10 board. Handles logic for collisions, boundaries, and cell states (WATER, SHIP, HIT, MISS).
 
-  • Player (Abstract Base Class):
+* **Player (Abstract Base Class):
 
-    • Defines the interface for placeAllShips() and makeMove().
+   • Defines the interface for placeAllShips() and makeMove().
 
-    • Manages the Grid and the array of Ship* pointers.
+   • Manages the Grid and the array of Ship* pointers.
 
-    • HumanPlayer: Implements logic for user input via std::cin.
+   • HumanPlayer: Implements logic for user input via std::cin.
 
-    • AiPlayer: Implements logic for randomized, valid computer moves.
+   • AiPlayer: Implements logic for randomized, valid computer moves.
 
-  • Ship (Base Class):
+* **Ship (Base Class):
 
-    • Tracks health, size, and location.
+   • Tracks health, size, and location.
 
-    • Derived Classes: Carrier, Battleship, Cruiser, Submarine, Destroyer (each with specific sizes).
+   • Derived Classes: Carrier, Battleship, Cruiser, Submarine, Destroyer (each with specific sizes).
 
 Code Snippet: Polymorphism
 The game loop treats both Human and AI generically using the base Player pointer:
@@ -113,10 +112,10 @@ Plaintext
     0 [~] [M] [~] [~] [~] [~] [~] [~] [~] [~]
     1 [~] [~] [X] [X] [X] [X] [~] [~] [~] [~]
     ...
-👤 Author
-Matan Shtar
+##👤 Author
+**Matan Shtar**
 
-GitHub: MatanShtar
+**GitHub: MatanShtar**
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
