@@ -111,7 +111,7 @@ The Board View:
 ## 👤 Author
 **Matan Shtar**
 
-**GitHub: MatanShtar**
+**GitHub: [MatanShtar](https://github.com/MatanShtar)**
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
