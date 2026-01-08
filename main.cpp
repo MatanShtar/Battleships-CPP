@@ -1,4 +1,4 @@
-//THIS IS AN EXAMPLE!!! YOU CAN CHANGE IT
+//Matan Shtar - 324125350
 
 #include <iostream>
 #include <cstdlib>   // For std::rand(), std::srand()
