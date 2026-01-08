@@ -48,27 +48,27 @@ You can compile this project using any standard C++ compiler (like `g++`).
 git clone [https://github.com/MatanShtar/Battleships-CPP.git](https://github.com/MatanShtar/Battleships-CPP.git)
 cd Battleships-CPP
 
-2. Compile
+### 2. Compile
 Run the following command in your terminal to link all source files:
 
        g++ main.cpp Game.cpp Player.cpp HumanPlayer.cpp AiPlayer.cpp Grid.cpp Ship.cpp ShipClasses.cpp -o battleship
    
-4. Run
+### 4. Run
 #Windows:
 
        battleship.exe
 #Mac/Linux:
 
     ./battleship
-##🏗️ **Technical Architecture**
+## 🏗️ Technical Architecture##
 This project uses a modular class hierarchy to separate logic, state, and user interaction.
 
 Class Diagram Overview
-* **Game: The central controller. Manages the game loop, turns, and win conditions.
+* **Game:** The central controller. Manages the game loop, turns, and win conditions.
 
-* **Grid: Represents the 10x10 board. Handles logic for collisions, boundaries, and cell states (WATER, SHIP, HIT, MISS).
+* **Grid:** Represents the 10x10 board. Handles logic for collisions, boundaries, and cell states (WATER, SHIP, HIT, MISS).
 
-* **Player (Abstract Base Class):
+* **Player** (Abstract Base Class):
 
    • Defines the interface for placeAllShips() and makeMove().
 
@@ -78,7 +78,7 @@ Class Diagram Overview
 
    • AiPlayer: Implements logic for randomized, valid computer moves.
 
-* **Ship (Base Class):
+* **Ship** (Base Class):
 
    • Tracks health, size, and location.
 
@@ -112,10 +112,10 @@ Plaintext
     0 [~] [M] [~] [~] [~] [~] [~] [~] [~] [~]
     1 [~] [~] [X] [X] [X] [X] [~] [~] [~] [~]
     ...
-##👤 Author
+## 👤 Author
 **Matan Shtar**
 
 **GitHub: MatanShtar**
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
