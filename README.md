@@ -70,19 +70,19 @@ Class Diagram Overview
 
 3.  **Player (Abstract Base Class):**
 
-   * Defines the interface for placeAllShips() and makeMove().
+      * Defines the interface for placeAllShips() and makeMove().
 
-   * Manages the Grid and the array of Ship* pointers.
+      * Manages the Grid and the array of Ship* pointers.
 
-   * HumanPlayer: Implements logic for user input via std::cin.
+      * HumanPlayer: Implements logic for user input via std::cin.
 
-   * AiPlayer: Implements logic for randomized, valid computer moves.
+      * AiPlayer: Implements logic for randomized, valid computer moves.
 
 4.  **Ship** (Base Class):
 
-   * Tracks health, size, and location.
+      * Tracks health, size, and location.
 
-   * Derived Classes: Carrier, Battleship, Cruiser, Submarine, Destroyer (each with specific sizes).
+      * Derived Classes: Carrier, Battleship, Cruiser, Submarine, Destroyer (each with specific sizes).
 
 ### Code Snippet: Polymorphism
 The game loop treats both Human and AI generically using the base Player pointer:
