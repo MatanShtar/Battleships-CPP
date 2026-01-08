@@ -64,27 +64,27 @@ Run the following command in your terminal to link all source files:
 This project uses a modular class hierarchy to separate logic, state, and user interaction.
 
 Class Diagram Overview
-* **Game:** The central controller. Manages the game loop, turns, and win conditions.
+1.  **Game:** The central controller. Manages the game loop, turns, and win conditions.
 
-* **Grid:** Represents the 10x10 board. Handles logic for collisions, boundaries, and cell states (WATER, SHIP, HIT, MISS).
+2.  **Grid:** Represents the 10x10 board. Handles logic for collisions, boundaries, and cell states (WATER, SHIP, HIT, MISS).
 
-* **Player** (Abstract Base Class):
+3.  **Player (Abstract Base Class):**
 
-   • Defines the interface for placeAllShips() and makeMove().
+   * Defines the interface for placeAllShips() and makeMove().
 
-   • Manages the Grid and the array of Ship* pointers.
+   * Manages the Grid and the array of Ship* pointers.
 
-   • HumanPlayer: Implements logic for user input via std::cin.
+   * HumanPlayer: Implements logic for user input via std::cin.
 
-   • AiPlayer: Implements logic for randomized, valid computer moves.
+   * AiPlayer: Implements logic for randomized, valid computer moves.
 
-* **Ship** (Base Class):
+4.  **Ship** (Base Class):
 
-   • Tracks health, size, and location.
+   * Tracks health, size, and location.
 
-   • Derived Classes: Carrier, Battleship, Cruiser, Submarine, Destroyer (each with specific sizes).
+   * Derived Classes: Carrier, Battleship, Cruiser, Submarine, Destroyer (each with specific sizes).
 
-Code Snippet: Polymorphism
+### Code Snippet: Polymorphism
 The game loop treats both Human and AI generically using the base Player pointer:
 
     // Inside Game::start()
