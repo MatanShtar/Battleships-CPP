@@ -105,7 +105,7 @@ The Board View:
     1 [~] [~] [X] [X] [X] [X] [~] [~] [~] [~]
     ...
 ## 👤 Author
-**Matan Shtar**
+#### Matan Shtar
 
 ### My Links:
 
