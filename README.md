@@ -105,13 +105,13 @@ The Board View:
     1 [~] [~] [X] [X] [X] [X] [~] [~] [~] [~]
     ...
 ## 👤 Author
-### Matan Shtar
+#### Matan Shtar
 
 ### My Links:
 
-**[GitHub](https://github.com/MatanShtar)**
+* **[GitHub](https://github.com/MatanShtar)**
 
-**[LinkedIn](https://www.linkedin.com/in/matan-shtar-8114173a4/)**
+* **[LinkedIn](https://www.linkedin.com/in/matan-shtar-8114173a4/)**
 
 
 ## 📄 License
