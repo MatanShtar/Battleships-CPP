@@ -1,6 +1,3 @@
-# Battleships-CPP
-A console-based Battleship game implemented in C++. Features object-oriented design, inheritance (Polymorphism), and an AI opponent.
-
 # 🚢 Battleship C++
 
 > A robust, object-oriented implementation of the classic strategy game Battleship, built entirely in C++.
