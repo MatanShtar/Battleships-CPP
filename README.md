@@ -107,8 +107,10 @@ The Board View:
 ## 👤 Author
 **Matan Shtar**
 ###My Links:
+
 **[GitHub](https://github.com/MatanShtar)**
-**[LinkedIn)(https://www.linkedin.com/in/matan-shtar-8114173a4/)**
+
+**[LinkedIn](https://www.linkedin.com/in/matan-shtar-8114173a4/)**
 
 
 ## 📄 License
