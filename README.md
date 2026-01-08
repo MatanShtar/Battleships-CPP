@@ -51,16 +51,16 @@ cd Battleships-CPP
 ### 2. Compile
 Run the following command in your terminal to link all source files:
 
-       g++ main.cpp Game.cpp Player.cpp HumanPlayer.cpp AiPlayer.cpp Grid.cpp Ship.cpp ShipClasses.cpp -o battleship
+    g++ main.cpp Game.cpp Player.cpp HumanPlayer.cpp AiPlayer.cpp Grid.cpp Ship.cpp ShipClasses.cpp -o battleship
    
 ### 4. Run
-#Windows:
+#### Windows:
 
-       battleship.exe
-#Mac/Linux:
+    battleship.exe
+#### Mac/Linux:
 
     ./battleship
-## 🏗️ Technical Architecture##
+## 🏗️ Technical Architecture
 This project uses a modular class hierarchy to separate logic, state, and user interaction.
 
 Class Diagram Overview
@@ -87,8 +87,6 @@ Class Diagram Overview
 Code Snippet: Polymorphism
 The game loop treats both Human and AI generically using the base Player pointer:
 
-    C++
-
     // Inside Game::start()
     // The game doesn't need to know IF it is a Human or AI, just that it is a Player.
     player1->makeMove(player2); 
@@ -96,10 +94,8 @@ The game loop treats both Human and AI generically using the base Player pointer
     
     player2->makeMove(player1);
     if (player1->allShipsSunk()) { /* Win Logic */ }
-📸 Screenshots (ASCII)
+## 📸 Screenshots (ASCII)
 The Board View:
-
-Plaintext
 
     --- Human's Turn ---
 
