@@ -105,9 +105,14 @@ The Board View:
     1 [~] [~] [X] [X] [X] [X] [~] [~] [~] [~]
     ...
 ## 👤 Author
-**Matan Shtar**
+#### Matan Shtar
 
-**GitHub: [MatanShtar](https://github.com/MatanShtar)**
+### My Links:
+
+* **[GitHub](https://github.com/MatanShtar)**
+
+* **[LinkedIn](https://www.linkedin.com/in/matan-shtar-8114173a4/)**
+
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
