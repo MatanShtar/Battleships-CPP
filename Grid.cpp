@@ -1,4 +1,6 @@
 //Matan Shtar - 324125350
+//Niv Shteingart - 314830365
+
 #include "Grid.hpp"
 using namespace std;
 
